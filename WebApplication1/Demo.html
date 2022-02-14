@@ -3,8 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script>
+        function changeParaText() {
+            var p1element = document.getElementById("p1");
+            p1element.innerHTML = "This is changed text!!";
+        }
+
+        
+    </script>
 </head>
 <body>
-    <p>Hello World!!</p>
+    <p id="p1">Hello World!!</p>
+ 
+
+        <input type="button" id="btnSubmit" value="Submit" onclick="changeParaText();" />
+
+
+
 </body>
 </html>
